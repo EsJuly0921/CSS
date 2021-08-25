@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    font-family: Helvetica;
+}
+
+h1{
+    text-align: center;
+}
+
+section{
+    width: 300px;
+    height: 130px;
+    background-color: cadetblue;
+    color: white;
+
+    /*Border: tamaño, efecto, color <--- Dependiendo del color se notarán o no los efectos*/
+    /*border: 10px solid black; <--- Solido*/
+    /*border: 10px dotted black; <--- Puntos*/
+    /*border: 10px dashed black; <--- Guiones*/
+    /*border: 10px double black; <--- Doble margen*/
+    /*border: 10px groove black; <--- Efecto 3D*/
+    /*border: 10px ridge black; <--- Inversión de colores con groove*/
+    /*border: 10px inset black; <--- Divide los colores*/
+    /*border: 10px outset black; <--- Invierte los colores del inset*/
+    /*border: 10px none black; <--- Quita el borde*/
+    /*border: 10px hidden black; <--- Esconde el borde*/
+    border: 10px solid black;
+
+    /*Margin: tamaño*/
+    margin: 10px;
+
+    /*Padding: tamaño*/
+    padding: 10px;
+}
+
+#Sec2{
+
+    box-sizing: border-box;
+
+    width: 100px;
+    height: 100px;
+
+    background-color: darkkhaki;
+    border-left-color:darkolivegreen;
+    border-left-width: 10px;
+    border-left-style: dotted;
+    border-right-color:darkseagreen;
+    border-right-width: 20px;
+    border-right-style: dashed;
+    border-top-color:lightgreen;
+    border-top-width: 20px;
+    border-top-style: double;
+    border-bottom-color:limegreen;
+    border-bottom-width: 60px;
+    border-bottom-style: solid;
+}
+
+#Sec3{
+    border: 1px none black;
+    width: 100px;
+    height: 100px;
+    /*border-radius: 10%; <--- Afecta a todas las esquinas*/
+    border-radius: 0 0 0 10%; /*Va siempre en sentido horario*/
+}
+
+#Sec4{
+    border-left: 2px dashed brown; /*Similar al Sec2, pero ahorrando líneas de código*/
+    border-right: 2px dashed brown;
+    border-top: 2px dashed brown;
+    border-bottom: 2px dashed brown;
+    margin-left: auto; /*Toma el espacio en blanco y lo pone en left*/
+
+    /*padding: 10 20 30 40; <--- En sentido horario*/
+    padding: 80px 5px;
+}
+
+#Sec5{
+    /*margin: 50px 10px 20px 30px; <--- En sentido horario*/
+    /*margin: 50px 20px; <--- Toma el primero para top y bottom y el segundo para left y rigth*/
+    /*margin: 50px 10px 80px; <--- Toma el rigth y left igual*/
+    margin: 0 auto; /*Para centrar elementos*/
+}

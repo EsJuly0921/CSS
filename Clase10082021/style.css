@@ -1,0 +1,79 @@
+/*Así se escriben los comentarios en CSS*/
+
+/*Jerarquias descendentes: 
+1. #ID
+2. .Class
+3. Etiquetas HTML (H1, P, ...)
+4. Selector universal
+5. Estilos heredados o estilos del navegador <--- por definir, depende del navegador.*/
+
+/*Clear con selector universal*/
+*{
+    margin: 0;
+    color: black;
+    font-family: Helvetica;
+}
+
+/*Selector Etiquetas HTML*/
+h1{
+    color: darkcyan;
+    background-color: black;
+}
+
+h2{
+    font-size: 50px;
+    font-family: helvetica;
+    font-weight: 500;
+    font-style: italic;
+}
+
+p{
+    color: green;
+    background-color: yellow;
+}
+
+hr {
+    border: 0;
+    height: 25px;
+    background-image: url(https://www.formget.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2014/12/type_3-595x26.png.webp);
+    background-repeat: no-repeat;
+}
+
+a{
+    font-size: 30px;
+    text-decoration: none;
+}
+
+/*Selector Class*/
+.tercero{
+    background-color: yellowgreen;
+    color: turquoise;
+}
+
+
+.texto-blanco{
+    color: whitesmoke;
+}
+
+.fondo-negro{
+    background-color: black;
+}
+
+/*Selector ID*/
+#segundo{
+    color: tomato;
+    background-color: thistle;
+}
+
+#segundodiv{
+    color: blueviolet;
+    background-color: rgb(140, 209, 22);
+}
+
+#pTexto{
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: line-through;
+    text-transform: uppercase;
+}

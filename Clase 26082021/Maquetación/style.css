@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica;
+}
+
+#Nickname{
+    width: 180px;
+    height: 20px;
+    border-radius: 5px;
+}
+
+#E-mail{
+    width: 180px;
+    height: 20px;
+    border-radius: 5px;
+}
+
+#Password{
+    width: 180px;
+    height: 20px;
+    border-radius: 5px;
+}
+
+#Text{
+    width: 180px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+#Summit{
+    width: 120px;
+    height: 25px;
+    border-radius: 5px;
+    background-color:mediumblue;
+    color: white;
+}
+
+#r{
+    background-color: #0000008c;
+    text-align: center;
+    float: left;
+    width: 50%;
+}
+
+#r0{
+    background-color: unset;
+    color: white;
+    text-align: left;
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+}
+
+#r1{
+    color:mediumblue
+}
+
+#r11{
+    font-size:xx-large;
+}
+
+#r2{
+    color: white;
+}
+
+#r22{
+    font-size:larger;
+}
+
+#a{
+    background-color: darkolivegreen;
+    width: 100%;
+    height: 550px;
+    display:inline-block;
+}
+
+#a1{
+    background-color: black;
+    color: white;
+    width: 13.8%;
+    height: 30px;
+    text-align: center;
+    float: left;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+#a2{
+    background-color:purple;
+    color: white;
+    width: 13.8%;
+    height: 30px;
+    text-align: center;
+    float: left;
+    margin-top: 15px;
+}
+
+#a3{
+    background-color: purple;
+    color: white;
+    width: 13.8%;
+    height: 30px;
+    text-align: center;
+    float: left;
+    margin-top: 15px;
+}
+
+#a4{
+    background-color: purple;
+    color: white;
+    width: 13.8%;
+    height: 30px;
+    text-align: center;
+    float: left;
+    margin-top: 15px;
+}
+
+#a5{
+    background-color: purple;
+    color: white;
+    width: 13.8%;
+    height: 30px;
+    text-align: center;
+    float: left;
+    margin-top: 15px;
+}
+
+#a6{
+    background-color: purple;
+    color: white;
+    width: 13.8%;
+    height: 30px;
+    text-align: center;
+    float: left;
+    margin-top: 15px;
+}
+
+#a7{
+    background-color: purple;
+    color: white;
+    width: 13.8%;
+    height: 30px;
+    text-align: center;
+    float: left;
+    margin-right: 15px;
+    margin-top: 15px;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+

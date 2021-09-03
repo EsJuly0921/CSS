@@ -1,0 +1,58 @@
+code{
+    font-family: Helvetica;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+div code{ /*Forma de ahorrar id, clases, etc. Si tiene el corchete angular, solo aplica al inerehit directo*/
+    background-color:cornflowerblue
+}
+
+div>code{
+    background-color: darkcyan;
+}
+
+pre code{
+    background-color: darkorchid;
+}
+
+/*+*/
+
+div + p{ /*Para el p adyacente al div*/
+    background-color: greenyellow;
+    color: lightseagreen;
+}
+
+/*~*/
+
+div ~ p{/*Todos los p después a un div*/
+    background-color: khaki;
+}
+
+/*¡¡¡Siempre comentar el código CSS!!!*/
+
+section#sec1{
+    background-color: lightseagreen;
+}
+
+html> body > section{
+    background-color: lime;
+}
+
+code.clase1{
+    background-color:cadetblue;
+}
+
+section p.clase1{
+    background-color: thistle;
+}
+
+.clase1{
+    color: white;
+    font-weight: bold;
+}
+
+#sec1{
+    background-color: coral !important; /*Lo toma como el primer elemento en la jerarquia. Elimina las especisidades anteriores*/
+    color: black;
+}

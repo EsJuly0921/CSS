@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+nav{
+    background-color:lightgray;
+    color: black;
+    font-size: 24px;
+    padding: 10px 20px;
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex; /*Coloca los bloques en línea, pero sin espacio entre ellos :)*/
+    height: 150px;
+    justify-content: center;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+nav > ul > a, 
+nav > ul > div{
+    padding: 10px 20px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+}
+
+nav > ul > a:hover,
+nav > ul > div:hover{
+    background-color:black;
+    color: white;
+    cursor: pointer;
+}
+
+nav > ul > #Contacto{
+    position: relative;
+}
+
+#Contacto:hover #ulContacto{ 
+    display: block;
+}
+
+#ulContacto{
+    color: black;
+    position: absolute;
+    bottom: -150px;
+    display: none;
+}
+
+#ulContacto li{
+    padding: 10px 20px;
+}
+
+
+/*Media*/
+
+@media screen and (min-width: 1200px) {
+
+    body{
+        background-color: chartreuse;
+    }
+}
+
+@media screen and (min-width: 300px) {
+
+    nav > ul{
+        flex-direction:column;
+        height: auto;
+    }
+}
